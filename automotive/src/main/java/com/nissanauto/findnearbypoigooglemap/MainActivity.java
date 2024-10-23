@@ -30,8 +30,7 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
     private GoogleMap mMap;
     private FusedLocationProviderClient fusedLocationClient;
     private static final String TAG = "MainActivity";
-    private static final String API_KEY = "AIzaSyDcGVkknsvFJlJieiftAlEVKQnwjj-vaDM"; // Add your API key here
-    //String API_KEY="";
+    private static final String API_KEY = ""; // TODO: Add your own API key here
     private NearbyPOIFetcher nearbyPOIFetcher;
     private static final int REQUEST_LOCATION_PERMISSION = 1;
     private LocationCallback locationCallback;
